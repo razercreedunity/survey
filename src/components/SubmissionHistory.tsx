@@ -42,7 +42,6 @@ const SubmissionHistory: React.FC = () => {
               <th>No</th>
               <th>Submit Time</th>
               <th>Answers</th>
-              {/* Add additional table headers as needed */}
             </tr>
           </thead>
           <tbody>
@@ -51,7 +50,6 @@ const SubmissionHistory: React.FC = () => {
                 <td>{counter++}</td> {/* Display the incrementing number */}
                 <td>{new Date(submission.submitTime).toLocaleString()}</td>
                 <td>{submission.answers}</td>
-                {/* Add additional table cells for other properties */}
               </tr>
             ))}
           </tbody>
