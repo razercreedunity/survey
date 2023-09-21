@@ -8,7 +8,7 @@ Frontend for the Survey App, a simple survey form application powered by a backe
 - Stores a single answer for each question.
 - Saves survey data to the backend.
 - Allows users to view previously submitted survey data.
-- 
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
